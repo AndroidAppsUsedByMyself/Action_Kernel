@@ -2,7 +2,7 @@ name: Action_Kernel
 
 
 on:
-
+  workflow_dispatch:
   push:
     branches: [ Clang ]
   pull_request:
